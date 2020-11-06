@@ -14,7 +14,7 @@ Optimal value is sampled from Gumbel distribution that approximate true distribu
 
 **Optimize Sampled function from GP posterior**  
 First, We construct Bayesian linear regression that approximate GP posterior using Random Fourier Features.
-Then, we ca sample functions by sampling weights of BLR.
+Then, we can sample functions by sampling weights of BLR.
 We can get optimal value to maximizing sampled function.
 
 ## Plot
@@ -23,6 +23,7 @@ Comparsion methods is follows.
 - Random search
 - Probability of improvement (PI)
 - Expected improvement (EI)
+
 In this experiment, since the input space is discretized, I sampled the optimal value from the predictive distributions of finite input points.
 
 MES performed as well or better than the existing methods.  
